@@ -1,0 +1,122 @@
+[2025-11-04 23:54:16,670] [INFO] cryptobay_bot: Запуск CryptoBay бота…
+[2025-11-04 23:54:37,237] [INFO] cryptobay_bot: Курсы запрошены пользователем 424917708
+[2025-11-04 23:54:43,744] [INFO] cryptobay_bot: График запрошен пользователем 424917708
+[2025-11-04 23:54:44,510] [ERROR] cryptobay_bot: Ошибка запроса графика CoinGecko
+Traceback (most recent call last):
+  File "C:\CryptoBay_Pro_4_1\bot\main_bot.py", line 124, in build_btc_chart
+    resp.raise_for_status()
+  File "C:\Users\turak\AppData\Local\Programs\Python\Python312-arm64\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+[2025-11-04 23:54:49,960] [INFO] cryptobay_bot: Купить/продать от 424917708
+[2025-11-04 23:55:04,223] [INFO] cryptobay_bot: Поддержка запрошена пользователем 424917708
+2025-11-05 00:32:27,144 | INFO | aiogram.dispatcher | Start polling
+2025-11-05 00:32:27,222 | INFO | aiogram.dispatcher | Run polling for bot @criptobay_bot id=8584223276 - 'обменник'
+2025-11-05 00:32:37,455 | INFO | aiogram.event | Update id=687049724 is handled. Duration 828 ms by bot id=8584223276
+2025-11-05 00:32:43,252 | ERROR | cryptobay.bot | Ошибка построения графика: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+Traceback (most recent call last):
+  File "C:\CryptoBay_Pro_4_1\bot\main_bot.py", line 118, in get_btc_chart_png
+    r.raise_for_status()
+  File "C:\Users\turak\AppData\Local\Programs\Python\Python312-arm64\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+2025-11-05 00:32:43,440 | INFO | aiogram.event | Update id=687049725 is handled. Duration 1110 ms by bot id=8584223276
+2025-11-05 00:32:45,261 | INFO | aiogram.event | Update id=687049726 is handled. Duration 93 ms by bot id=8584223276
+2025-11-05 00:32:48,835 | INFO | aiogram.event | Update id=687049727 is handled. Duration 94 ms by bot id=8584223276
+2025-11-05 00:33:03,050 | INFO | aiogram.event | Update id=687049728 is handled. Duration 78 ms by bot id=8584223276
+2025-11-05 00:33:09,371 | INFO | aiogram.event | Update id=687049729 is handled. Duration 500 ms by bot id=8584223276
+2025-11-05 00:33:26,288 | INFO | aiogram.event | Update id=687049730 is handled. Duration 250 ms by bot id=8584223276
+2025-11-05 00:33:28,506 | ERROR | cryptobay.bot | Ошибка построения графика: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+Traceback (most recent call last):
+  File "C:\CryptoBay_Pro_4_1\bot\main_bot.py", line 118, in get_btc_chart_png
+    r.raise_for_status()
+  File "C:\Users\turak\AppData\Local\Programs\Python\Python312-arm64\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+2025-11-05 00:33:28,615 | INFO | aiogram.event | Update id=687049731 is handled. Duration 719 ms by bot id=8584223276
+2025-11-05 00:33:35,670 | ERROR | cryptobay.bot | Ошибка построения графика: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+Traceback (most recent call last):
+  File "C:\CryptoBay_Pro_4_1\bot\main_bot.py", line 118, in get_btc_chart_png
+    r.raise_for_status()
+  File "C:\Users\turak\AppData\Local\Programs\Python\Python312-arm64\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+2025-11-05 00:33:35,763 | INFO | aiogram.event | Update id=687049732 is handled. Duration 687 ms by bot id=8584223276
+2025-11-05 00:33:50,334 | ERROR | cryptobay.bot | Ошибка построения графика: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+Traceback (most recent call last):
+  File "C:\CryptoBay_Pro_4_1\bot\main_bot.py", line 118, in get_btc_chart_png
+    r.raise_for_status()
+  File "C:\Users\turak\AppData\Local\Programs\Python\Python312-arm64\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+2025-11-05 00:33:50,427 | INFO | aiogram.event | Update id=687049733 is handled. Duration 985 ms by bot id=8584223276
+2025-11-05 00:34:19,766 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 64] Указанное сетевое имя более недоступно
+2025-11-05 00:34:19,767 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8584223276)
+2025-11-05 00:34:31,041 | INFO | aiogram.dispatcher | Connection established (tryings = 1, bot id = 8584223276)
+2025-11-05 00:38:10,930 | INFO | aiogram.dispatcher | Start polling
+2025-11-05 00:38:11,017 | INFO | aiogram.dispatcher | Run polling for bot @criptobay_bot id=8584223276 - 'обменник'
+2025-11-05 00:38:26,132 | INFO | aiogram.event | Update id=687049735 is handled. Duration 875 ms by bot id=8584223276
+2025-11-05 00:38:31,420 | ERROR | cryptobay.bot | Ошибка построения графика: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+Traceback (most recent call last):
+  File "C:\CryptoBay_Pro_4_1\bot\main_bot.py", line 118, in get_btc_chart_png
+    r.raise_for_status()
+  File "C:\Users\turak\AppData\Local\Programs\Python\Python312-arm64\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+2025-11-05 00:38:31,515 | INFO | aiogram.event | Update id=687049736 is handled. Duration 1015 ms by bot id=8584223276
+2025-11-05 00:39:09,744 | ERROR | cryptobay.bot | Ошибка построения графика: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+Traceback (most recent call last):
+  File "C:\CryptoBay_Pro_4_1\bot\main_bot.py", line 118, in get_btc_chart_png
+    r.raise_for_status()
+  File "C:\Users\turak\AppData\Local\Programs\Python\Python312-arm64\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=hourly
+2025-11-05 00:39:10,004 | INFO | aiogram.event | Update id=687049737 is handled. Duration 859 ms by bot id=8584223276
+2025-11-05 00:39:11,188 | INFO | aiogram.event | Update id=687049738 is handled. Duration 94 ms by bot id=8584223276
+2025-11-05 00:39:12,573 | INFO | aiogram.event | Update id=687049739 is handled. Duration 109 ms by bot id=8584223276
+2025-11-05 09:16:59,752 | INFO | cryptobay.bot | ENV файл: C:\CryptoBay_Pro_4_1\.env
+2025-11-05 09:34:48,469 | INFO | cryptobay.bot | ENV файл: C:\CryptoBay_Pro_4_1\.env
+2025-11-05 09:34:48,791 | INFO | cryptobay.bot | Запуск CryptoBay бота…
+2025-11-05 09:34:48,791 | INFO | aiogram.dispatcher | Start polling
+2025-11-05 09:34:49,167 | INFO | aiogram.dispatcher | Run polling for bot @criptobay_bot id=8584223276 - 'обменник'
+2025-11-05 09:34:49,663 | INFO | aiogram.event | Update id=687049779 is handled. Duration 405 ms by bot id=8584223276
+2025-11-05 09:34:49,664 | INFO | aiogram.event | Update id=687049776 is handled. Duration 405 ms by bot id=8584223276
+2025-11-05 09:34:49,664 | INFO | aiogram.event | Update id=687049780 is handled. Duration 405 ms by bot id=8584223276
+2025-11-05 09:34:49,696 | INFO | aiogram.event | Update id=687049781 is handled. Duration 436 ms by bot id=8584223276
+2025-11-05 09:34:49,760 | INFO | aiogram.event | Update id=687049778 is handled. Duration 500 ms by bot id=8584223276
+2025-11-05 09:34:50,472 | INFO | aiogram.event | Update id=687049777 is handled. Duration 1202 ms by bot id=8584223276
+2025-11-05 09:34:57,224 | INFO | aiogram.event | Update id=687049782 is handled. Duration 750 ms by bot id=8584223276
+2025-11-05 09:35:00,201 | INFO | aiogram.event | Update id=687049783 is handled. Duration 1000 ms by bot id=8584223276
+2025-11-05 09:35:11,969 | INFO | aiogram.event | Update id=687049784 is handled. Duration 827 ms by bot id=8584223276
+2025-11-05 09:35:21,871 | INFO | aiogram.event | Update id=687049785 is handled. Duration 171 ms by bot id=8584223276
+2025-11-05 09:35:23,676 | INFO | aiogram.event | Update id=687049786 is handled. Duration 155 ms by bot id=8584223276
+2025-11-05 09:58:39 | INFO | cryptobay.bot | Запуск CryptoBay бота…
+2025-11-05 09:58:39 | INFO | cryptobay.bot | Запуск фонового наблюдателя цен
+2025-11-05 09:59:03 | INFO | cryptobay.bot | Пользователь 424917708 запустил /start
+2025-11-05 09:59:19 | INFO | cryptobay.bot | График запрошен пользователем 424917708
+2025-11-05 09:59:20 | INFO | cryptobay.bot | График BTC получен с Binance
+2025-11-05 09:59:26 | INFO | cryptobay.bot | Курсы запрошены пользователем 424917708
+2025-11-05 09:59:29 | INFO | cryptobay.bot | Топ-10 запрошен пользователем 424917708
+2025-11-05 09:59:30 | INFO | cryptobay.bot | Топ-10 получен с CoinGecko
+2025-11-05 09:59:33 | INFO | cryptobay.bot | Портфель запрошен пользователем 424917708
+2025-11-05 09:59:56 | INFO | cryptobay.bot | График запрошен пользователем 424917708
+2025-11-05 09:59:57 | INFO | cryptobay.bot | График BTC получен с Binance
+2025-11-05 10:17:32 | INFO | cryptobay.bot | Запуск CryptoBay бота…
+2025-11-05 10:17:32 | INFO | cryptobay.bot | Запуск фонового наблюдателя цен
+2025-11-05 10:17:49 | INFO | cryptobay.bot | Курсы запрошены пользователем 424917708
+2025-11-05 10:17:53 | INFO | cryptobay.bot | Топ-10 запрошен пользователем 424917708
+2025-11-05 10:17:53 | INFO | cryptobay.bot | Топ-10 получен с CoinGecko
+2025-11-05 10:17:56 | INFO | cryptobay.bot | График запрошен пользователем 424917708
+2025-11-05 10:17:57 | INFO | cryptobay.bot | График BTC получен с Binance
+2025-11-05 10:18:00 | INFO | cryptobay.bot | Портфель запрошен пользователем 424917708
+2025-11-05 10:25:44 | INFO | cryptobay.bot | Курсы запрошены пользователем 424917708
+2025-11-05 13:43:41 | INFO | cryptobay.bot | Запуск CryptoBay бота…
+2025-11-05 13:43:41 | INFO | cryptobay.bot | Запуск фонового наблюдателя цен
+2025-11-05 13:43:48 | INFO | cryptobay.bot | Курсы запрошены пользователем 424917708
+2025-11-05 13:44:21 | INFO | cryptobay.bot | График запрошен пользователем 424917708
+2025-11-05 13:44:22 | INFO | cryptobay.bot | График BTC получен с Binance
+2025-11-05 13:57:28 | ERROR | cryptobay.bot | Ошибка запроса BTC с CoinGecko: HTTPSConnectionPool(host='api.coingecko.com', port=443): Max retries exceeded with url: /api/v3/coins/markets?vs_currency=usd&ids=bitcoin&price_change_percentage=24h (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+2025-11-05 16:40:59 | INFO | cryptobay.bot | Курсы запрошены пользователем 424917708
+2025-11-05 16:41:07 | INFO | cryptobay.bot | Портфель запрошен пользователем 424917708
+2025-11-05 16:41:10 | INFO | cryptobay.bot | График запрошен пользователем 424917708
+2025-11-05 16:41:12 | INFO | cryptobay.bot | График BTC получен с Binance
