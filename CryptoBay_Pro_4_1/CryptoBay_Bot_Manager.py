@@ -42,15 +42,28 @@ def start_bot():
 
 def stop_bot():
     global bot_process
-    try:
-        # Грубый вариант: грохнуть все python-процессы
-        # Можно улучшить позже и искать только конкретный.
-        os.system("taskkill /f /im python.exe >nul 2>&1")
+    if bot_process is None:
+        messagebox.showinfo("CryptoBay", "Бот ещё не запускался.")
+        return
+
+    if bot_process.poll() is not None:
         bot_process = None
+        status_var.set("Статус: бот уже остановлен")
+        messagebox.showinfo("CryptoBay", "Бот уже остановлен.")
+        return
+
+    try:
+        bot_process.terminate()
+        try:
+            bot_process.wait(timeout=5)
+        except subprocess.TimeoutExpired:
+            bot_process.kill()
         status_var.set("Статус: бот остановлен")
         messagebox.showinfo("CryptoBay", "Бот остановлен.")
     except Exception as e:
         messagebox.showerror("Ошибка", f"Не удалось остановить бота:\n{e}")
+    finally:
+        bot_process = None
 
 
 def open_telegram():
